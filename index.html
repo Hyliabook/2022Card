@@ -1,0 +1,13 @@
+<html>
+    <img id ="card" src = "cardSmaller.png"></html>
+    <audio id = "sfx1" src="solutionAndpkHeart.mp3"></audio>
+
+    <script>
+        document.querySelector("#card").onclick = (e) => {
+            let sfx1 = document.querySelector("#sfx1");
+
+            if((sfx1.duration > 0))
+                sfx1.play();
+        }
+    </script>
+</html>
